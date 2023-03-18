@@ -1,6 +1,8 @@
 from typing import List
 
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hash_set = set()

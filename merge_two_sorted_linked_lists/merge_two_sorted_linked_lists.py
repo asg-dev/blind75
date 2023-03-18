@@ -4,6 +4,8 @@ from typing import Optional
 from classdefs.list_node import ListNode
 
 
+# Time Complexity: if m is number of nodes in list1 and n is list of nodes in list2, O(m) or O(n) whichever is greater
+# Space Complexity: O(1)
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         # create a dummy node which will be the head of our new sorted list
