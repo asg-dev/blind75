@@ -27,7 +27,7 @@ class Solution:
         if indegree_at > 0 and outdegree[indegree_at] == 0: return indegree_at
         else: return -1
 
-    def findJudge(self, n: int, trust: List[List[int]]) -> int:
+    def findJudge(self, n: int, trust: List[List[int]], without_second_array = True) -> int:
         if not trust and n == 1:
             return 1
 
